@@ -1,0 +1,66 @@
+@import 'src/utils/mixins/screens';
+@import 'src/utils/mixins/elevation';
+
+.onlineShopsSection {
+    grid-column: 3 / span 8;
+    position: relative;
+    border-radius: 8px;
+    //display: grid;
+    //grid-template-columns: repeat(6, 1fr);
+    //grid-column-gap: 16px;
+    //background-color: #3460f1;
+    padding-top: 40px;
+    //background-image: require('./../../assets/images/buy.jpg');
+    background: url(./../assets/images/buy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+
+    &__itemWrapper {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 50px;
+    }
+    &__item {
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: white;
+        //margin: auto;
+        text-align: center;
+        @include elevation(0, false);
+        @include elevation-transition();
+        transition: all 0.3s cubic-bezier(0.09, 0.5, 0.26, 0.9);
+        &:hover {
+            @include elevation(3, false);
+            transform: scale(1.1);
+        }
+        cursor: pointer;
+    }
+
+    &__title {
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: white;
+        font-weight: 800;
+        text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        font-size: 40px !important;
+    }
+    &__description {
+        text-align: center;
+        color: white;
+        padding-bottom: 30px;
+    }
+}
+
+@media (#{$phone}) and (#{$tabletMax}) {
+    .onlineShopsSection {
+        grid-column: 1 / span 4;
+
+        &__itemWrapper {
+            padding-bottom: 30px;
+        }
+        &__title {
+            font-size: 30px !important;
+        }
+    }
+}

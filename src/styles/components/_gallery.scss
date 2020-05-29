@@ -1,0 +1,19 @@
+@import 'src/utils/mixins/screens.scss';
+
+.galleryWrapper {
+    grid-column: 1 / span 12;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+
+    &__image {
+        margin: 5px;
+    }
+}
+
+@media (#{$phone}) and (#{$tabletMax}) {
+    .galleryWrapper {
+        grid-column: 1 / span 4;
+    }
+}

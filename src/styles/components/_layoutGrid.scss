@@ -1,0 +1,31 @@
+@import 'src/utils/mixins/screens.scss';
+
+.layoutGrid {
+    margin: 0 5%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 10px;
+
+    &__content {
+        padding-top: 82px;
+        grid-column: 1 / span 12;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: 10px;
+    }
+}
+
+@media (#{$phone}) and (#{$tabletMax}) {
+    .layoutGrid {
+        margin: 0;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 8px;
+
+        &__content {
+            padding-top: 69px;
+            grid-column: 1 / span 4;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 8px;
+        }
+    }
+}

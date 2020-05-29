@@ -1,0 +1,54 @@
+@import 'src/utils/mixins/screens.scss';
+
+.header {
+    //grid-column: 1 / span 12;
+    //position: sticky;
+    width: 90%;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+	transition: all 0.3s;
+    height: 82px;
+    box-sizing: border-box;
+
+    &__social {
+        padding: 0 5px;
+    }
+}
+
+.header.smaller {
+    padding-bottom: 10px;
+    height: 67px;
+}
+
+.header a > img {
+    transition: all 0.3s;
+}
+
+.header.smaller a > img {
+	height: 30px;
+    transition: all 0.3s;
+}
+
+@media (#{$phone}) and (#{$tabletMax}) {
+    .header {
+        //grid-column: 1 / span 4;
+        width: 100%;
+        padding: 10px 0;
+        height: 69px;
+
+        &__social {
+            > img {
+                width: 30%;
+            }
+        }
+    }
+    .header.smaller {
+        height: 57px;
+    }
+}

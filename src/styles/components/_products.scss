@@ -1,0 +1,27 @@
+@import 'src/utils/mixins/screens';
+@import 'src/utils/mixins/elevation';
+
+.scrapedProducts {
+    grid-column: 1 / span 12;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 16px;
+
+    &__button {
+      background-color: grey;
+      margin: 10px 0;
+      grid-column: 1 / span 12;
+    }
+}
+
+@media (#{$phone}) and (#{$tabletMax}) {
+  .scrapedProducts {
+        grid-column: 1 / span 4;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 8px;
+
+        &__button {
+          grid-column: 1 / span 4;
+    }
+  }
+}

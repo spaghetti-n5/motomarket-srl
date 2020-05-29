@@ -1,0 +1,24 @@
+@import 'src/utils/mixins/screens.scss';
+
+.brands {
+    grid-column: 1 / span 12;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 16px;
+
+    &__box {
+        grid-column: auto / span 2;
+    }
+}
+
+@media (#{$phone}) and (#{$tabletMax}) {
+    .brands {
+        grid-column: 1 / span 4;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 8px;
+
+        &__box {
+            grid-column: auto / span 1;
+        }
+    }
+}

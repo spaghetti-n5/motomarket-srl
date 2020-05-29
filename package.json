@@ -1,0 +1,33 @@
+{
+  "name": "motomarket-srl",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "google-maps-react": "^2.0.2",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.19.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "styled-components": "^4.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
