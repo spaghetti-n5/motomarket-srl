@@ -2,6 +2,21 @@
 
 .categoryPage {
     grid-column: 1 / span 12;
+    margin-top: 20px;
+
+    &__titleWrap {
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+        > h1 {
+            padding-left: 20px;
+        }
+    }
+
+    &__icon {
+        cursor: pointer;
+        display: flex;
+    }
 }
 
 @media (#{$phone}) and (#{$tabletMax}) {

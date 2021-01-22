@@ -1,0 +1,32 @@
+@import 'src/utils/mixins/screens';
+
+.about {
+    grid-column: 1 / span 12;
+    text-align: justify;
+    margin-top: 40px;
+
+    &__wrap {
+        display: flex;
+    }
+
+    &__image {
+        width: 40%;
+        margin: auto;
+    }
+
+    &__text{
+        padding: 20px 0;
+        width: 40%;
+        margin-right: auto;
+
+        > p {
+            padding: 5px 0;
+        }
+    }
+}
+
+@media (#{$phone}) and (#{$tabletMax}) {
+    .about {
+        grid-column: 1 / span 4;
+    }
+}

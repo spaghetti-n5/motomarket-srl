@@ -5,6 +5,11 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 16px;
+    margin-top: 40px;
+
+    &__title {
+        grid-column: 1 / span 12;
+    }
 }
 
 @media (#{$phone}) and (#{$tabletMax}) {

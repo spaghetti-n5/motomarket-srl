@@ -1,40 +1,45 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useCallback } from 'react';
 
-import { Logo, FaceBookIconBlack, GooglePlusIcon } from '../Icons';
-
-import {
-    HeaderWrapper,
-    HeaderLogo,
-} from './styles';
+import { Logo, FaceBookIconBlack, GooglePlusIcon } from './../Icons';
+import './Header.scss';
 
 const Header = () => {
-        const [prevScrollpos, setScrollPos] = useState(window.pageYOffset);
-    const [visible, setVisibility] = useState(false);
+  const resizeHeaderOnScroll = useCallback(() => {
+      const distanceY = window.pageYOffset || document.documentElement.scrollTop;
+      const shrinkOn = 200;
+      const headerEl = document.getElementById('header');
 
-    const handleScroll = () => {
-        const currentScrollPos = window.pageYOffset;
-        setScrollPos(currentScrollPos);
-        setVisibility(prevScrollpos > currentScrollPos);
-    };
+      if (distanceY > shrinkOn) {
+          headerEl.classList.add('smaller');
+      } else {
+          headerEl.classList.remove('smaller');
+      }
+  }, []);
 
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    });
-    console.log("visible",visible)
-    return (
-    <HeaderWrapper visible={visible}>
-        <HeaderLogo href="/"><Logo /></HeaderLogo>
-        <div>
-            <a className="header__social" href="https://www.facebook.com/motomarket.srl/" target="_blank" rel="noopener noreferrer">
-                <FaceBookIconBlack />
-            </a>
-            <a className="header__social" href="/" target="_blank" rel="noopener noreferrer"><GooglePlusIcon /></a>
-        </div>
-    </HeaderWrapper>
-);
-}
+  useEffect(() => {
+      window.addEventListener('scroll', resizeHeaderOnScroll);
+  });
+
+  return (
+      <div className="header" id="header">
+          <a id="logo" href="/">
+              <Logo height="42px" />
+          </a>
+          <div>
+              <a
+                  className="header__social"
+                  href="https://www.facebook.com/motomarket.srl/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                  <FaceBookIconBlack />
+              </a>
+              <a className="header__social" href="/" target="_blank" rel="noopener noreferrer">
+                  <GooglePlusIcon />
+              </a>
+          </div>
+      </div>
+  );
+};
 
 export default Header;

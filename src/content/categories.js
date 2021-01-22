@@ -10,6 +10,7 @@ const categories = [
         color: '#F186B6',
         image: Motocicli,
         alt: 'Motocicli',
+        url: 'motocicli',
     },
     {
         id: 2,
@@ -17,6 +18,7 @@ const categories = [
         color: '#00DF6B',
         image: Accessori,
         alt: 'Ricambi & Accessori',
+        url: 'ricambi-accessori',
     },
     {
         id: 3,
@@ -24,6 +26,7 @@ const categories = [
         color: '#FFD92D',
         image: Usato,
         alt: 'Usato',
+        url: 'usato',
     },
     {
         id: 4,
@@ -31,6 +34,7 @@ const categories = [
         color: '#3FE7FF',
         image: Ditte,
         alt: 'Ditte',
+        url: 'ditte',
     },
 ];
 

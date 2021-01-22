@@ -4,11 +4,15 @@
     grid-column: 1 / span 12;
     display: flex;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 40px 0;
     justify-content: space-evenly;
 
     &__image {
-        margin: 5px;
+        border: 5px solid rgb(65, 63, 68);
+        box-sizing: border-box;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 8px;
     }
 }
 
