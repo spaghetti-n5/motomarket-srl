@@ -1,6 +1,7 @@
 {
   "name": "motomarket-srl",
   "version": "0.1.0",
+  "homepage": "https://spaghetti-n5.github.io/motomarket-srl",
   "private": true,
   "dependencies": {
     "eslint-config-airbnb": "^18.0.1",
