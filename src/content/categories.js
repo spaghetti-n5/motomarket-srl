@@ -1,6 +1,6 @@
-import Accessori from './../assets/images/accessoriCat.jpg';
+import RicambeAccessori from './../assets/images/ricambeAccessori.jpg';
 import Motocicli from './../assets/images/motocicli.jpg';
-import Usato from './../assets/images/usato1.jpg';
+import Usato from './../assets/images/usato.jpg';
 import Ditte from './../assets/images/ditte.jpg';
 
 const categories = [
@@ -16,7 +16,7 @@ const categories = [
         id: 2,
         title: 'Ricambi & Accessori',
         color: '#00DF6B',
-        image: Accessori,
+        image: RicambeAccessori,
         alt: 'Ricambi & Accessori',
         url: 'ricambi-accessori',
     },

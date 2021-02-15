@@ -6,10 +6,12 @@ import SubitoLogo from '../../assets/icons/subito-logo.png';
 const Shops = () => {
     return (
         <div className="onlineShopsSection">
-            <img src={Delivery} className="onlineShopsSection__image" alt="background" />
+            <div>
+                <h1>Compra online</h1>
+                <img src={Delivery} className="onlineShopsSection__image" alt="background" />
+            </div>
             <div className="onlineShopsSection__text">
-                <h1 className="sectionTitle">Compra online</h1>
-                <h2 className="h4 onlineShopsSection__description">
+                <h2 className="p onlineShopsSection__description">
                     Visita i nostri rivenditori online per comprare comodamente da casa!
                 </h2>
                 <div className="onlineShopsSection__itemWrapper">

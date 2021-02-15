@@ -17,6 +17,10 @@
         cursor: pointer;
         display: flex;
     }
+
+    &__text {
+        padding-left: 16px;
+    }
 }
 
 @media (#{$phone}) and (#{$tabletMax}) {

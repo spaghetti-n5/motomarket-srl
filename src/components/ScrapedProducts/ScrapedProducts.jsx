@@ -7,7 +7,7 @@ let products = Object.values(scraped).slice(0, 8)
 const ScrapedProducts = () => (
     <div className="scrapedProducts">
         <h1 className="sectionTitle">Alcuni dei nostri prodotti</h1>
-            <div className="scrapedProducts__grid">
+            <div className="scrapedProducts__list">
                 {products.map(product => (
                     <Product
                         key={product.Title}

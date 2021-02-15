@@ -28,7 +28,6 @@
     &__wrapper {
         width: 100%;
         height: 100%;
-        //background: linear-gradient(180deg, rgba(51, 51, 51, 0) 64.64%, rgba(51, 51, 51, 0.61) 100%);
         position: relative;
         z-index: 1;
     }
@@ -57,5 +56,12 @@
     .categoryBox {
         height: 128px;
         grid-column: auto / span 2;
+        
+        &:nth-child(4) {
+            margin-top: 12px;
+        }
+        &:nth-child(5) {
+            margin-top: 12px;
+        }
     }
 }

@@ -8,7 +8,7 @@ const Categories = () => (
     <div className="categories">
         <h1 className="sectionTitle categories__title">Che cosa offriamo</h1>
         {categories.map(category => (
-                <Link className="categoryBox" to={`/category/${category.url}`} key={category.id}>
+                <Link className="categoryBox" to={`/categoria/${category.url}`} key={category.id}>
                     <CategoryBox
                         title={category.title}
                         image={category.image}

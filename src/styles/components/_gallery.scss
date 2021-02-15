@@ -13,11 +13,16 @@
         padding: 20px;
         margin: 10px;
         border-radius: 8px;
+        max-width: 300px;
     }
 }
 
 @media (#{$phone}) and (#{$tabletMax}) {
     .galleryWrapper {
         grid-column: 1 / span 4;
+        padding: 10px 0;
+        &__image {
+            max-width: 100%;
+        }
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import brands from './../content/brands.js';
+import brands from '../content/brandsGallery.js';
 
 export const Brands = () => {
     return (

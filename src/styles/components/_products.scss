@@ -6,15 +6,14 @@
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
 
-    &__grid {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-column-gap: 16px;
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
     }
   
     &__button {
+      align-self: baseline;
       background-color:rgba(147, 146, 152, 0.5); // color picked from logo
       margin: 10px 0;
       color: black;
@@ -33,11 +32,6 @@
 @media (#{$phone}) and (#{$tabletMax}) {
   .scrapedProducts {
         grid-column: 1 / span 4;
-
-        &__grid {
-          grid-template-columns: repeat(4, 1fr);
-          grid-column-gap: 8px;
-        }
-
+        margin-top: 20px;
   }
 }

@@ -1,7 +1,6 @@
 import React, { useEffect, useCallback } from 'react';
 
-import { Logo, FaceBookIconBlack, GooglePlusIcon } from './../Icons';
-import './Header.scss';
+import { Logo, FaceBookIconBlack, EmailIconBlack } from './../Icons';
 
 const Header = () => {
   const resizeHeaderOnScroll = useCallback(() => {
@@ -34,8 +33,8 @@ const Header = () => {
               >
                   <FaceBookIconBlack />
               </a>
-              <a className="header__social" href="/" target="_blank" rel="noopener noreferrer">
-                  <GooglePlusIcon />
+              <a className="header__social" href="mailto: motomarket@tin.it">
+                  <EmailIconBlack />
               </a>
           </div>
       </div>

@@ -5,8 +5,6 @@ import LayoutGrid from './../LayoutGrid';
 import Shops from './../Shops';
 import About from './../About';
 import Location from './../Location';
-// import Gallery from './../Gallery';
-// import homepageGallery from './../../content/homepageGallery';
 import ScrapedProducts from './../ScrapedProducts';
 
 export default class Home extends Component {
@@ -17,7 +15,6 @@ export default class Home extends Component {
                 <ScrapedProducts />
                 <Categories />
                 <About />
-                {/* <Gallery gallery={homepageGallery} /> */}
                 <Location />
             </LayoutGrid>
         );

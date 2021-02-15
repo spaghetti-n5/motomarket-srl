@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ShopImage from '../../assets/images/7.jpg';
+import ShopImage from '../../assets/images/shopImage.jpg';
 
 const About = () => (
     <div className="about">

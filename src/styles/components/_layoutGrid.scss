@@ -19,7 +19,7 @@
 
 @media (#{$phone}) and (#{$tabletMax}) {
     .layoutGrid {
-        margin: 0;
+        margin: 0 10px;
         grid-template-columns: repeat(4, 1fr);
         grid-column-gap: 8px;
 

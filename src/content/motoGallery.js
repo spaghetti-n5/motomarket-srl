@@ -6,6 +6,9 @@ import Moto5 from './../assets/images/moto/moto5.jpg';
 import Moto6 from './../assets/images/moto/moto6.jpg';
 import Moto7 from './../assets/images/moto/moto7.jpg';
 import Moto8 from './../assets/images/moto/moto8.jpg';
+import Moto9 from './../assets/images/moto/moto9.jpg';
+import Moto10 from './../assets/images/moto/moto10.jpg';
+import Moto11 from './../assets/images/moto/moto11.jpg';
 
 const motoGallery = [
     {
@@ -46,6 +49,21 @@ const motoGallery = [
     {
         id: 8,
         image: Moto8,
+        alt: 'moto',
+    },
+    {
+        id: 9,
+        image: Moto9,
+        alt: 'moto',
+    },
+    {
+        id: 10,
+        image: Moto10,
+        alt: 'moto',
+    },
+    {
+        id: 11,
+        image: Moto11,
         alt: 'moto',
     },
 ];

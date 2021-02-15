@@ -17,5 +17,10 @@
         grid-column: 1 / span 4;
         grid-template-columns: repeat(4, 1fr);
         grid-column-gap: 8px;
+        margin-top: 20px;
+
+        &__title {
+            grid-column: 1 / span 4;
+        }
     }
 }

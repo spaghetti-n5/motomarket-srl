@@ -4,7 +4,7 @@ import Gallery from './../Gallery';
 import homepageGallery from './../../content/homepageGallery';
 import MotoGallery from './../../content/motoGallery';
 import AccessoryGallery from './../../content/accessoryGallery';
-
+import BrandsGallery from './../../content/brandsGallery';
 import LayoutGrid from './../LayoutGrid';
 import BackIcon from '../Icons/Back';
 
@@ -15,9 +15,9 @@ const Content = ({ title, text, gallery, history }) => {
                 <div className="categoryPage__icon" onClick={() => history.goBack()}>
                     <BackIcon />
                 </div>
-                <h1 className="categoryPage__title">{title}</h1>
+                <h1 className="h1">{title}</h1>
             </div>
-            <p className="p">{text}</p>
+            <p className="p categoryPage__text">{text}</p>
             {gallery}
         </div>
     );
@@ -43,7 +43,9 @@ const CategoryPage = ({ match, history }) => {
         gallery = <Gallery gallery={homepageGallery} />;
     } else if (categoryName === 'ditte') {
         title = 'Ditte';
-        gallery = <Gallery gallery={homepageGallery} />;
+        text =
+            'Siamo attualmente i nuovi concessionari KYMCO per la zona di Conegliano, offriamo promozioni per ogni esigenza con facilitazioni di pagamento. Siamo anche rivenditori della famosa marca di moto spagnole Rieju e del marchio Sym.';
+        gallery = <Gallery gallery={BrandsGallery} />;
     }
     return (
         <LayoutGrid>
