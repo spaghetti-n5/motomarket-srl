@@ -6,7 +6,7 @@ import CategoryPage from './components/CategoryPage';
 import './App.css';
 
 const App = () => (
-    <BrowserRouter>
+    <BrowserRouter basename="/motomarket-srl/">
         <Suspense fallback={<div>Loading...</div>}>
             <Switch>
                 <Route exact path="/" component={Home} />
