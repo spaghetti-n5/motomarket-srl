@@ -19,12 +19,16 @@
     }
 
     &__text {
-        padding-left: 16px;
+        padding-left: 48px;
     }
 }
 
 @media (#{$phone}) and (#{$tabletMax}) {
     .categoryPage {
         grid-column: 1 / span 4;
+
+        &__text {
+            padding-left: 16px;
+        }
     }
 }

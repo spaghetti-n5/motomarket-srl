@@ -1,5 +1,6 @@
 @import 'src/utils/mixins/screens';
 @import 'src/utils/mixins/elevation';
+
 .categoryBox {
     grid-column: auto / span 3;
     height: 256px;
@@ -10,26 +11,23 @@
     @include elevation-transition();
     &:hover {
         @include elevation(3, false);
-        color: black;
     }
     cursor: pointer;
     text-decoration: none;
-
-    &__title {
-        bottom: 0;
-        width: 100%;
-        padding: 16px 0;
-        text-align: center;
-        line-height: 22px;
-        color: #fff;
-        font-family: 'Avenir W01', 'futura', 'Lucida grande', sans-serif;
-    }
 
     &__wrapper {
         width: 100%;
         height: 100%;
         position: relative;
         z-index: 1;
+    }
+
+    &__title {
+        width: 100%;
+        padding: 8px 0;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(33,33,33,0.4);
     }
 
     &__bg {
@@ -39,11 +37,9 @@
         height: 100%;
         top: 0;
         left: 0;
-
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-
         transform: scale(1);
     }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import scraped from './../../content/scraped.json';
 import Product from './Product';
 
-let products = Object.values(scraped).slice(0, 8)
+let products = Object.values(scraped).slice(8).reverse();
 
 const ScrapedProducts = () => (
     <div className="scrapedProducts">

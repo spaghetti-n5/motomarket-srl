@@ -11,9 +11,12 @@ const Shops = () => {
                 <img src={Delivery} className="onlineShopsSection__image" alt="background" />
             </div>
             <div className="onlineShopsSection__text">
-                <h2 className="p onlineShopsSection__description">
+                <h2 className="h3 onlineShopsSection__description">
                     Visita i nostri rivenditori online per comprare comodamente da casa!
                 </h2>
+                <p className="p onlineShopsSection__description">
+                    Su Kijiji e Subito.it potrai trovare gli ultimi prodotti ed offerte in anteprima
+                </p>
                 <div className="onlineShopsSection__itemWrapper">
                     <div className="onlineShopsSection__item">
                         <a
