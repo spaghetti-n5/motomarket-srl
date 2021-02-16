@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/motomarket-srl/static/css/main.0ccf4b7f.chunk.css",
-    "main.js": "/motomarket-srl/static/js/main.6a0cf92f.chunk.js",
-    "main.js.map": "/motomarket-srl/static/js/main.6a0cf92f.chunk.js.map",
+    "main.css": "/motomarket-srl/static/css/main.e83b066a.chunk.css",
+    "main.js": "/motomarket-srl/static/js/main.8aab4939.chunk.js",
+    "main.js.map": "/motomarket-srl/static/js/main.8aab4939.chunk.js.map",
     "runtime-main.js": "/motomarket-srl/static/js/runtime-main.d37cc564.js",
     "runtime-main.js.map": "/motomarket-srl/static/js/runtime-main.d37cc564.js.map",
     "static/js/2.b5ac3be0.chunk.js": "/motomarket-srl/static/js/2.b5ac3be0.chunk.js",
     "static/js/2.b5ac3be0.chunk.js.map": "/motomarket-srl/static/js/2.b5ac3be0.chunk.js.map",
     "index.html": "/motomarket-srl/index.html",
-    "static/css/main.0ccf4b7f.chunk.css.map": "/motomarket-srl/static/css/main.0ccf4b7f.chunk.css.map",
+    "static/css/main.e83b066a.chunk.css.map": "/motomarket-srl/static/css/main.e83b066a.chunk.css.map",
     "static/js/2.b5ac3be0.chunk.js.LICENSE.txt": "/motomarket-srl/static/js/2.b5ac3be0.chunk.js.LICENSE.txt",
     "static/media/DID.245c112a.png": "/motomarket-srl/static/media/DID.245c112a.png",
-    "static/media/accessori.0d4c0892.jpg": "/motomarket-srl/static/media/accessori.0d4c0892.jpg",
+    "static/media/accessori.5e4dc808.jpg": "/motomarket-srl/static/media/accessori.5e4dc808.jpg",
     "static/media/accessorio0.a9463487.jpg": "/motomarket-srl/static/media/accessorio0.a9463487.jpg",
     "static/media/accessorio1.ff13264e.jpg": "/motomarket-srl/static/media/accessorio1.ff13264e.jpg",
     "static/media/accessorio10.21c851b4.jpg": "/motomarket-srl/static/media/accessorio10.21c851b4.jpg",
@@ -73,7 +73,7 @@
     "static/media/phone.9b659158.svg": "/motomarket-srl/static/media/phone.9b659158.svg",
     "static/media/polini.59e3cb45.png": "/motomarket-srl/static/media/polini.59e3cb45.png",
     "static/media/rapidevo.2e7fbab6.png": "/motomarket-srl/static/media/rapidevo.2e7fbab6.png",
-    "static/media/ricambeAccessori.5e4dc808.jpg": "/motomarket-srl/static/media/ricambeAccessori.5e4dc808.jpg",
+    "static/media/ricambi.db8d7dcc.jpg": "/motomarket-srl/static/media/ricambi.db8d7dcc.jpg",
     "static/media/rieju.c33fcba7.jpg": "/motomarket-srl/static/media/rieju.c33fcba7.jpg",
     "static/media/sava.5adee533.png": "/motomarket-srl/static/media/sava.5adee533.png",
     "static/media/sbs.6fa07235.png": "/motomarket-srl/static/media/sbs.6fa07235.png",
@@ -85,7 +85,6 @@
     "static/media/sym.dffba28f.jpg": "/motomarket-srl/static/media/sym.dffba28f.jpg",
     "static/media/tecmate.9e8be82d.png": "/motomarket-srl/static/media/tecmate.9e8be82d.png",
     "static/media/trofeo.e543a44c.png": "/motomarket-srl/static/media/trofeo.e543a44c.png",
-    "static/media/usato.db8d7dcc.jpg": "/motomarket-srl/static/media/usato.db8d7dcc.jpg",
     "static/media/wd.ec3666c6.png": "/motomarket-srl/static/media/wd.ec3666c6.png",
     "static/media/wrp.234620e1.png": "/motomarket-srl/static/media/wrp.234620e1.png",
     "static/media/yss.9c6e4d71.png": "/motomarket-srl/static/media/yss.9c6e4d71.png",
@@ -95,7 +94,7 @@
   "entrypoints": [
     "static/js/runtime-main.d37cc564.js",
     "static/js/2.b5ac3be0.chunk.js",
-    "static/css/main.0ccf4b7f.chunk.css",
-    "static/js/main.6a0cf92f.chunk.js"
+    "static/css/main.e83b066a.chunk.css",
+    "static/js/main.8aab4939.chunk.js"
   ]
 }
