@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Gallery = ({ gallery, height }) => (
+const Gallery = ({ gallery }) => (
     <div className="galleryWrapper">
         {gallery.map(galleryImage => (
             <div className="galleryWrapper__image" key={galleryImage.id}>

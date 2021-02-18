@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Categories from './../Categories';
 import LayoutGrid from './../LayoutGrid';
@@ -7,16 +7,14 @@ import About from './../About';
 import Location from './../Location';
 import ScrapedProducts from './../ScrapedProducts';
 
-export default class Home extends Component {
-    render() {
-        return (
-            <LayoutGrid>
-                <Shops />
-                <ScrapedProducts />
-                <Categories />
-                <About />
-                <Location />
-            </LayoutGrid>
-        );
-    }
-}
+const Home = () => ( 
+    <LayoutGrid>
+        <Shops />
+        <ScrapedProducts />
+        <Categories />
+        <About />
+        <Location />
+    </LayoutGrid>
+);
+
+export default Home;

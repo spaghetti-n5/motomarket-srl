@@ -19,7 +19,8 @@
     }
 
     &__text {
-        padding-left: 48px;
+        padding: 0 46px;
+        text-align: justify;
     }
 }
 
@@ -28,7 +29,7 @@
         grid-column: 1 / span 4;
 
         &__text {
-            padding-left: 16px;
+            padding: 0 16px;
         }
     }
 }

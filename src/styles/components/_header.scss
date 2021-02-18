@@ -13,11 +13,7 @@
 	transition: all 0.3s;
     height: 82px;
     box-sizing: border-box;
-
-    &__social {
-        padding: 0 5px;
-        outline: none;
-    }
+    margin: 0 5%;
 }
 
 .header.smaller {
@@ -27,11 +23,12 @@
 
 .header a > img {
     transition: all 0.3s;
+    padding: 0 5px;
+    outline: none;
 }
 
 .header.smaller a > img {
 	height: 30px;
-    transition: all 0.3s;
 }
 
 @media (#{$phone}) and (#{$tabletMax}) {
@@ -39,14 +36,14 @@
         width: 100%;
         padding: 10px 0;
         height: 69px;
-
-        &__social {
-            > img {
-                width: 30%;
-            }
-        }
+        margin: 0;
     }
+
     .header.smaller {
         height: 57px;
+    }
+
+    .header.smaller > div > a > img {
+        width: 30px;
     }
 }

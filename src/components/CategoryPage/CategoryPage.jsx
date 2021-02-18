@@ -9,21 +9,19 @@ import EpocaGallery from './../../content/epocaGallery';
 import LayoutGrid from './../LayoutGrid';
 import BackIcon from '../Icons/Back';
 
-const Content = ({ title, text, textExtra, gallery, history }) => {
-    return (
-        <div className="categoryPage">
-            <div className="categoryPage__titleWrap">
-                <div className="categoryPage__icon" onClick={() => history.goBack()}>
-                    <BackIcon />
-                </div>
-                <h1 className="h1">{title}</h1>
+const Content = ({ title, text, textExtra, gallery, history }) => (
+     <div className="categoryPage">
+        <div className="categoryPage__titleWrap">
+            <div className="categoryPage__icon" onClick={() => history.goBack()}>
+                <BackIcon />
             </div>
-            <p className="p categoryPage__text">{text}</p>
-            {textExtra && <p className="p categoryPage__text">{textExtra}</p>}
-            {gallery}
+            <h1 className="h1">{title}</h1>
         </div>
-    );
-};
+        <p className="p categoryPage__text">{text}</p>
+        {textExtra && <p className="p categoryPage__text">{textExtra}</p>}
+        {gallery}
+    </div>
+);
 
 const CategoryPage = ({ match, history }) => {
     const { categoryName } = match.params || null;

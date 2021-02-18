@@ -1,17 +1,17 @@
-import React, { Component, } from 'react';
+import React from 'react';
 import Header from './../Header';
 import Footer from './../Footer';
 
-export default class LayoutGrid extends Component {
-    render() {
-        return (
-            <div className='layoutGrid'>
-                <Header />
-                <div className="layoutGrid__content">
-                    {this.props.children}
-                </div>
-                <Footer />
+const LayoutGrid = ({ children }) => (
+    <>
+        <Header />
+        <div className='layoutGrid'>
+            <div className="layoutGrid__content">
+                {children}
             </div>
-        );
-    }
-}
+            <Footer />
+        </div>
+    </>
+);
+
+export default LayoutGrid;
