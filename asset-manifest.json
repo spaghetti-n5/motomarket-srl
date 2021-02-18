@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/motomarket-srl/static/css/main.bad6278c.chunk.css",
-    "main.js": "/motomarket-srl/static/js/main.aaf4869a.chunk.js",
-    "main.js.map": "/motomarket-srl/static/js/main.aaf4869a.chunk.js.map",
+    "main.css": "/motomarket-srl/static/css/main.de53e8db.chunk.css",
+    "main.js": "/motomarket-srl/static/js/main.89bc178f.chunk.js",
+    "main.js.map": "/motomarket-srl/static/js/main.89bc178f.chunk.js.map",
     "runtime-main.js": "/motomarket-srl/static/js/runtime-main.d37cc564.js",
     "runtime-main.js.map": "/motomarket-srl/static/js/runtime-main.d37cc564.js.map",
-    "static/js/2.b5ac3be0.chunk.js": "/motomarket-srl/static/js/2.b5ac3be0.chunk.js",
-    "static/js/2.b5ac3be0.chunk.js.map": "/motomarket-srl/static/js/2.b5ac3be0.chunk.js.map",
+    "static/js/2.4fae96f8.chunk.js": "/motomarket-srl/static/js/2.4fae96f8.chunk.js",
+    "static/js/2.4fae96f8.chunk.js.map": "/motomarket-srl/static/js/2.4fae96f8.chunk.js.map",
     "index.html": "/motomarket-srl/index.html",
-    "static/css/main.bad6278c.chunk.css.map": "/motomarket-srl/static/css/main.bad6278c.chunk.css.map",
-    "static/js/2.b5ac3be0.chunk.js.LICENSE.txt": "/motomarket-srl/static/js/2.b5ac3be0.chunk.js.LICENSE.txt",
+    "static/css/main.de53e8db.chunk.css.map": "/motomarket-srl/static/css/main.de53e8db.chunk.css.map",
+    "static/js/2.4fae96f8.chunk.js.LICENSE.txt": "/motomarket-srl/static/js/2.4fae96f8.chunk.js.LICENSE.txt",
     "static/media/DID.245c112a.png": "/motomarket-srl/static/media/DID.245c112a.png",
     "static/media/accessori.5e4dc808.jpg": "/motomarket-srl/static/media/accessori.5e4dc808.jpg",
     "static/media/accessorio0.a9463487.jpg": "/motomarket-srl/static/media/accessorio0.a9463487.jpg",
@@ -104,8 +104,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d37cc564.js",
-    "static/js/2.b5ac3be0.chunk.js",
-    "static/css/main.bad6278c.chunk.css",
-    "static/js/main.aaf4869a.chunk.js"
+    "static/js/2.4fae96f8.chunk.js",
+    "static/css/main.de53e8db.chunk.css",
+    "static/js/main.89bc178f.chunk.js"
   ]
 }
