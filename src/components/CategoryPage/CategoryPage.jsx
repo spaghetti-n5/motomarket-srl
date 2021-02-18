@@ -4,10 +4,12 @@ import Gallery from './../Gallery';
 import MotoGallery from './../../content/motoGallery';
 import AccessoryGallery from './../../content/accessoryGallery';
 import BrandsGallery from './../../content/brandsGallery';
+import EpocaGallery from './../../content/epocaGallery';
+
 import LayoutGrid from './../LayoutGrid';
 import BackIcon from '../Icons/Back';
 
-const Content = ({ title, text, gallery, history }) => {
+const Content = ({ title, text, textExtra, gallery, history }) => {
     return (
         <div className="categoryPage">
             <div className="categoryPage__titleWrap">
@@ -17,6 +19,7 @@ const Content = ({ title, text, gallery, history }) => {
                 <h1 className="h1">{title}</h1>
             </div>
             <p className="p categoryPage__text">{text}</p>
+            {textExtra && <p className="p categoryPage__text">{textExtra}</p>}
             {gallery}
         </div>
     );
@@ -27,6 +30,7 @@ const CategoryPage = ({ match, history }) => {
     let gallery = null;
     let title = null;
     let text = null;
+    let textExtra = null;
     if (categoryName === 'motocicli') {
         title = 'Motocicli';
         text =
@@ -44,11 +48,13 @@ const CategoryPage = ({ match, history }) => {
         gallery = <Gallery gallery={BrandsGallery} />;
     } else if (categoryName === 'ricambi-epoca') {
         title = "Ricambi d'epoca";
-        text = '';
+        text = "La nostra attivitá ê in grado di fornire qualsiasi tipo di ricambio per motori e accessori di ciclomotori e moto in circolazione.";
+        textExtra = "Recentemente abbiamo integrato l'offerta con la ricerca e vendita di pezzi di veicoli a due ruote non piū in produzione ma che negli ultimi anni hanno acceso l'animo degli appassionati. Si tratta di ricambi originali e non, nuovi e che ora non sono piú in produzione. Partecipiano anche noi a quell'economia circolare in cui niente va sprecato ma tutto recuperato. Abbiamo la possibilitá di offrire ricambi per recuperare veicoli d'epoca (ciclomotori e moto), che per ognuno di noi hanno un'anima ed un ricordo speciale.";
+        gallery = <Gallery gallery={EpocaGallery} />;
     }
     return (
         <LayoutGrid>
-            <Content title={title} text={text} gallery={gallery} history={history} />
+            <Content title={title} text={text} textExtra={textExtra} gallery={gallery} history={history} />
         </LayoutGrid>
     );
 };
