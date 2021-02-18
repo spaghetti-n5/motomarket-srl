@@ -46,7 +46,7 @@ const CategoryPage = ({ match, history }) => {
         gallery = <Gallery gallery={BrandsGallery} />;
     } else if (categoryName === 'ricambi-epoca') {
         title = "Ricambi d'epoca";
-        text = "La nostra attivitá ê in grado di fornire qualsiasi tipo di ricambio per motori e accessori di ciclomotori e moto in circolazione.";
+        text = "La nostra attivitá è in grado di fornire qualsiasi tipo di ricambio per motori e accessori di ciclomotori e moto in circolazione.";
         textExtra = "Recentemente abbiamo integrato l'offerta con la ricerca e vendita di pezzi di veicoli a due ruote non piū in produzione ma che negli ultimi anni hanno acceso l'animo degli appassionati. Si tratta di ricambi originali e non, nuovi e che ora non sono piú in produzione. Partecipiano anche noi a quell'economia circolare in cui niente va sprecato ma tutto recuperato. Abbiamo la possibilitá di offrire ricambi per recuperare veicoli d'epoca (ciclomotori e moto), che per ognuno di noi hanno un'anima ed un ricordo speciale.";
         gallery = <Gallery gallery={EpocaGallery} />;
     }
