@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/motomarket-srl/static/css/main.de53e8db.chunk.css",
-    "main.js": "/motomarket-srl/static/js/main.89bc178f.chunk.js",
-    "main.js.map": "/motomarket-srl/static/js/main.89bc178f.chunk.js.map",
+    "main.js": "/motomarket-srl/static/js/main.21c1704d.chunk.js",
+    "main.js.map": "/motomarket-srl/static/js/main.21c1704d.chunk.js.map",
     "runtime-main.js": "/motomarket-srl/static/js/runtime-main.d37cc564.js",
     "runtime-main.js.map": "/motomarket-srl/static/js/runtime-main.d37cc564.js.map",
-    "static/js/2.4fae96f8.chunk.js": "/motomarket-srl/static/js/2.4fae96f8.chunk.js",
-    "static/js/2.4fae96f8.chunk.js.map": "/motomarket-srl/static/js/2.4fae96f8.chunk.js.map",
+    "static/js/2.13a56126.chunk.js": "/motomarket-srl/static/js/2.13a56126.chunk.js",
+    "static/js/2.13a56126.chunk.js.map": "/motomarket-srl/static/js/2.13a56126.chunk.js.map",
     "index.html": "/motomarket-srl/index.html",
     "static/css/main.de53e8db.chunk.css.map": "/motomarket-srl/static/css/main.de53e8db.chunk.css.map",
-    "static/js/2.4fae96f8.chunk.js.LICENSE.txt": "/motomarket-srl/static/js/2.4fae96f8.chunk.js.LICENSE.txt",
+    "static/js/2.13a56126.chunk.js.LICENSE.txt": "/motomarket-srl/static/js/2.13a56126.chunk.js.LICENSE.txt",
     "static/media/DID.245c112a.png": "/motomarket-srl/static/media/DID.245c112a.png",
     "static/media/accessori.5e4dc808.jpg": "/motomarket-srl/static/media/accessori.5e4dc808.jpg",
     "static/media/accessorio0.a9463487.jpg": "/motomarket-srl/static/media/accessorio0.a9463487.jpg",
@@ -31,7 +31,7 @@
     "static/media/bando.700cc6f7.png": "/motomarket-srl/static/media/bando.700cc6f7.png",
     "static/media/belrey.8a82db5c.png": "/motomarket-srl/static/media/belrey.8a82db5c.png",
     "static/media/clock.8a9efb14.svg": "/motomarket-srl/static/media/clock.8a9efb14.svg",
-    "static/media/delivery.ed731448.jpg": "/motomarket-srl/static/media/delivery.ed731448.jpg",
+    "static/media/delivery.1b1808f4.jpg": "/motomarket-srl/static/media/delivery.1b1808f4.jpg",
     "static/media/denso.efdd4465.png": "/motomarket-srl/static/media/denso.efdd4465.png",
     "static/media/ditte.ca765013.jpg": "/motomarket-srl/static/media/ditte.ca765013.jpg",
     "static/media/dt.1b84d2af.png": "/motomarket-srl/static/media/dt.1b84d2af.png",
@@ -104,8 +104,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d37cc564.js",
-    "static/js/2.4fae96f8.chunk.js",
+    "static/js/2.13a56126.chunk.js",
     "static/css/main.de53e8db.chunk.css",
-    "static/js/main.89bc178f.chunk.js"
+    "static/js/main.21c1704d.chunk.js"
   ]
 }
