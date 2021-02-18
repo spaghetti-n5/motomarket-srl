@@ -6,7 +6,7 @@ import CategoryPage from './components/CategoryPage';
 import './App.css';
 
 const App = () => (
-    <BrowserRouter basename="/motomarket-srl/">
+    <BrowserRouter>
         <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={Categories} />
