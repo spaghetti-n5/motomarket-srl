@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.de53e8db.chunk.css",
-    "main.js": "/static/js/main.b3a857d8.chunk.js",
-    "main.js.map": "/static/js/main.b3a857d8.chunk.js.map",
+    "main.js": "/static/js/main.72fd5c03.chunk.js",
+    "main.js.map": "/static/js/main.72fd5c03.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.16b2b4e3.js",
     "runtime-main.js.map": "/static/js/runtime-main.16b2b4e3.js.map",
     "static/js/2.13a56126.chunk.js": "/static/js/2.13a56126.chunk.js",
@@ -11,7 +11,7 @@
     "static/css/main.de53e8db.chunk.css.map": "/static/css/main.de53e8db.chunk.css.map",
     "static/js/2.13a56126.chunk.js.LICENSE.txt": "/static/js/2.13a56126.chunk.js.LICENSE.txt",
     "static/media/DID.245c112a.png": "/static/media/DID.245c112a.png",
-    "static/media/accessori.5e4dc808.jpg": "/static/media/accessori.5e4dc808.jpg",
+    "static/media/accessori.93dc5255.jpg": "/static/media/accessori.93dc5255.jpg",
     "static/media/accessorio0.a9463487.jpg": "/static/media/accessorio0.a9463487.jpg",
     "static/media/accessorio1.ff13264e.jpg": "/static/media/accessorio1.ff13264e.jpg",
     "static/media/accessorio10.21c851b4.jpg": "/static/media/accessorio10.21c851b4.jpg",
@@ -31,9 +31,9 @@
     "static/media/bando.700cc6f7.png": "/static/media/bando.700cc6f7.png",
     "static/media/belrey.8a82db5c.png": "/static/media/belrey.8a82db5c.png",
     "static/media/clock.8a9efb14.svg": "/static/media/clock.8a9efb14.svg",
-    "static/media/delivery.1b1808f4.jpg": "/static/media/delivery.1b1808f4.jpg",
+    "static/media/delivery.a9c39f90.jpg": "/static/media/delivery.a9c39f90.jpg",
     "static/media/denso.efdd4465.png": "/static/media/denso.efdd4465.png",
-    "static/media/ditte.ca765013.jpg": "/static/media/ditte.ca765013.jpg",
+    "static/media/ditte.22ece946.jpg": "/static/media/ditte.22ece946.jpg",
     "static/media/dt.1b84d2af.png": "/static/media/dt.1b84d2af.png",
     "static/media/ducati.dd8cadd0.png": "/static/media/ducati.dd8cadd0.png",
     "static/media/dze.27b00f71.png": "/static/media/dze.27b00f71.png",
@@ -75,7 +75,7 @@
     "static/media/moto7.7a4ccae0.jpg": "/static/media/moto7.7a4ccae0.jpg",
     "static/media/moto8.462c887d.jpg": "/static/media/moto8.462c887d.jpg",
     "static/media/moto9.3ce48d31.jpg": "/static/media/moto9.3ce48d31.jpg",
-    "static/media/motocicli.ba27f6ae.jpg": "/static/media/motocicli.ba27f6ae.jpg",
+    "static/media/motocicli.09283f17.jpg": "/static/media/motocicli.09283f17.jpg",
     "static/media/motocross.8a016d38.png": "/static/media/motocross.8a016d38.png",
     "static/media/motomarket.374894b6.jpeg": "/static/media/motomarket.374894b6.jpeg",
     "static/media/ng.584ad03f.png": "/static/media/ng.584ad03f.png",
@@ -84,7 +84,7 @@
     "static/media/phone.9b659158.svg": "/static/media/phone.9b659158.svg",
     "static/media/polini.59e3cb45.png": "/static/media/polini.59e3cb45.png",
     "static/media/rapidevo.2e7fbab6.png": "/static/media/rapidevo.2e7fbab6.png",
-    "static/media/ricambi.db8d7dcc.jpg": "/static/media/ricambi.db8d7dcc.jpg",
+    "static/media/ricambi.d2d3316d.jpg": "/static/media/ricambi.d2d3316d.jpg",
     "static/media/rieju.c33fcba7.jpg": "/static/media/rieju.c33fcba7.jpg",
     "static/media/sava.5adee533.png": "/static/media/sava.5adee533.png",
     "static/media/sbs.6fa07235.png": "/static/media/sbs.6fa07235.png",
@@ -106,6 +106,6 @@
     "static/js/runtime-main.16b2b4e3.js",
     "static/js/2.13a56126.chunk.js",
     "static/css/main.de53e8db.chunk.css",
-    "static/js/main.b3a857d8.chunk.js"
+    "static/js/main.72fd5c03.chunk.js"
   ]
 }
