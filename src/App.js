@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Categories from './components/Categories';
@@ -7,13 +7,11 @@ import './App.css';
 
 const App = () => (
     <BrowserRouter basename="/motomarket-srl/">
-        <Suspense fallback={<div>Loading...</div>}>
-            <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/about" component={Categories} />
-                <Route path="/categoria/:categoryName" component={CategoryPage} />
-            </Switch>
-        </Suspense>
+        <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={Categories} />
+            <Route path="/categoria/:categoryName" component={CategoryPage} />
+        </Switch>
     </BrowserRouter>
 );
 
