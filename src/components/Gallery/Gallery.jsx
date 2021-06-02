@@ -4,7 +4,7 @@ const Gallery = ({ gallery }) => (
     <div className="galleryWrapper">
         {gallery.map(galleryImage => (
             <div className="galleryWrapper__image" key={galleryImage.id}>
-                <img src={galleryImage.image} alt={galleryImage.alt} height="100%" width="100%" />
+                <img src={galleryImage.image} alt={galleryImage.alt} width="100%" />
             </div>
         ))}
     </div>
