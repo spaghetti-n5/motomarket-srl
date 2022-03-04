@@ -6,7 +6,7 @@ const Shops = () => (
     <div className="onlineShopsSection">
         <div>
             <h1 className="sectionTitle">Compra online</h1>
-            <img src={Delivery} className="onlineShopsSection__image" alt="background" />
+            <img src={Delivery} className="onlineShopsSection__image" alt="background" height="100%" width="100%" />
         </div>
         <div className="onlineShopsSection__text">
             <h2 className="h3 onlineShopsSection__description">

@@ -16,13 +16,13 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
-      window.addEventListener('scroll', resizeHeaderOnScroll);
+      window.addEventListener('scroll', resizeHeaderOnScroll, {passive: true});
   });
 
   return (
       <div className="header" id="header">
           <a id="logo" href="/">
-              <Logo height="42px" />
+              <Logo />
           </a>
           <div>
               <a

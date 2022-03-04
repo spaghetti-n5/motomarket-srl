@@ -11,14 +11,12 @@
     display: flex;
     justify-content: space-between;
 	transition: all 0.3s;
-    height: 82px;
     box-sizing: border-box;
     margin: 0 5%;
 }
 
 .header.smaller {
-    padding-bottom: 10px;
-    height: 67px;
+    padding: 10px 0;
 }
 
 .header a > img {
@@ -35,12 +33,7 @@
     .header {
         width: 100%;
         padding: 10px 0;
-        height: 69px;
         margin: 0;
-    }
-
-    .header.smaller {
-        height: 57px;
     }
 
     .header.smaller > div > a > img {

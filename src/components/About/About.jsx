@@ -31,6 +31,8 @@ const About = () => (
                 className="about__image"
                 src={ShopImage}
                 alt="about"
+                height="100%"
+                width="100%"
             />
         </div>
     </div>

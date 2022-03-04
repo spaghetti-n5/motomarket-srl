@@ -5,7 +5,7 @@ const CategoryBox = ({ title, image, alt }) => (
         <div className="categoryBox__wrapper">
             <div className="h3 categoryBox__title">{title}</div>
         </div>
-        <img className="categoryBox__bg" src={image} alt={alt} />
+        <img className="categoryBox__bg" src={image} alt={alt} height="100%" width="100%"/>
     </div>
 );
 

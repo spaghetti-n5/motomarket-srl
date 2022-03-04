@@ -11,7 +11,7 @@ const Product = ({
 }) => (
     <a className="product" href={url} target="__blank">
         <h3 className="h3 product__title">{title}</h3>
-        <img className="h3 product__image" src={image} alt="product" />
+        <img className="h3 product__image" src={image} alt="product" height="100%" width="100%" />
         <p className="p product__description">{description}</p>
         <p className="p">{location} -- {date}</p>
         <p className="product__price">{price}</p>
